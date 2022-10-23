@@ -32,3 +32,10 @@ test
 test
 """
 ```
+
+## Optional
+
+Thec wrrapper that ho;d specific types
+* Nil
+* Forced - unwrapping
+* Optional - binding
