@@ -36,6 +36,20 @@ test
 ## Optional
 
 Thec wrrapper that ho;d specific types
-* Nil
-* Forced - unwrapping
-* Optional - binding
+* Forced unwrapping: extracts a value
+```
+var password = "1234"
+let passcode = Int(password)
+```
+
+* Optional binding: check if optional contains a value
+```
+password =  "hello world"
+
+if let code = Int(password) {
+    print(code)
+} else {
+    print("Invalid passcode!")
+}
+
+```
