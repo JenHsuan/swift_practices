@@ -39,7 +39,7 @@ Thec wrrapper that ho;d specific types
 * Forced unwrapping: extracts a value
 ```
 var password = "1234"
-let passcode = Int(password)
+let passcode = Int(password)!
 ```
 
 * Optional binding: check if optional contains a value
