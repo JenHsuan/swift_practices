@@ -53,3 +53,11 @@ if let code = Int(password) {
 }
 
 ```
+
+## Function
+* in-out parameters
+```
+func increment(number: inout Int) {
+    number += 1
+}
+```
