@@ -48,6 +48,45 @@ print("Transfer amount: $\(transferAmount)")
 
 //---
 
-func transerfer(transerferType: String) {
+var isSystemOpened = true
+var option = 0
+
+repeat {
+    print("What would you like to do?")
+    print("1. Check bank account")
+    print("2. Withdraw money")
+    print("3. Deposit money")
+    print("4. Close the system")
+    print("Which option do you choose? (1, 2, 3, or 4)")
+    option = Int.random(in: 1...5)
+    print("Selected option: \(option)")
     
+    switch option {
+    case 1: print("bank account: \(balance)")
+    case 2: transfer("withdraw")
+    case 3: transfer("deposit")
+    case 4:
+        isSystemOpened = false
+        print("The system is closed.")
+    default: break
+    }
+} while ( isSystemOpened)
+
+func transfer(_ transerferType: String) {
+    switch transerferType {
+        case "withdraw":
+            if accountType == "deposiit" {
+                debitWithdraw(transferAmount)
+            } else {
+                withdraw(transferAmount)
+            }
+        case "deposit":
+            if accountType == "credit" {
+                creditDeposit(transferAmount)
+            } else {
+                deposit(transferAmount)
+            }
+        default:
+            break
+    }
 }
