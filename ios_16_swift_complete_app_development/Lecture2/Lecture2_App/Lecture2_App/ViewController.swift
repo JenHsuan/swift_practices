@@ -22,6 +22,12 @@ class ViewController: UIViewController {
     }
 }
 
+extension ViewController:UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let tappedCity = cities[indexPath.row]
+        print("\(tappedCity)")
+    }
+}
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
