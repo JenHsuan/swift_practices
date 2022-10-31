@@ -26,6 +26,10 @@ extension ViewController:UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let tappedCity = cities[indexPath.row]
         print("\(tappedCity)")
+        
+        let detailViewController = DetailViewController()
+        navigationController?.pushViewController(detailViewController, animated: true)
+        //present(detailViewController, animated: true)
     }
 }
 
