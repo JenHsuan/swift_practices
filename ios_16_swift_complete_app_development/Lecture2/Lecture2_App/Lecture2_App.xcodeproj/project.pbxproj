@@ -16,6 +16,7 @@
 		33F8D8DF290F6073007A7A38 /* Lecture2_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F8D8DE290F6073007A7A38 /* Lecture2_AppTests.swift */; };
 		33F8D8E9290F6073007A7A38 /* Lecture2_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F8D8E8290F6073007A7A38 /* Lecture2_AppUITests.swift */; };
 		33F8D8EB290F6073007A7A38 /* Lecture2_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F8D8EA290F6073007A7A38 /* Lecture2_AppUITestsLaunchTests.swift */; };
+		33F8D8F8290F6A12007A7A38 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F8D8F7290F6A12007A7A38 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		33F8D8E4290F6073007A7A38 /* Lecture2_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lecture2_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F8D8E8290F6073007A7A38 /* Lecture2_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture2_AppUITests.swift; sourceTree = "<group>"; };
 		33F8D8EA290F6073007A7A38 /* Lecture2_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture2_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33F8D8F7290F6A12007A7A38 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				33F8D8D0290F6073007A7A38 /* Assets.xcassets */,
 				33F8D8D2290F6073007A7A38 /* LaunchScreen.storyboard */,
 				33F8D8D5290F6073007A7A38 /* Info.plist */,
+				33F8D8F7290F6A12007A7A38 /* Model.swift */,
 			);
 			path = Lecture2_App;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				33F8D8CC290F6072007A7A38 /* ViewController.swift in Sources */,
 				33F8D8C8290F6072007A7A38 /* AppDelegate.swift in Sources */,
 				33F8D8CA290F6072007A7A38 /* SceneDelegate.swift in Sources */,
+				33F8D8F8290F6A12007A7A38 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
