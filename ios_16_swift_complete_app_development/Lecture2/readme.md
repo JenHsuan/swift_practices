@@ -6,4 +6,6 @@
 ## Table View
 * Organize data
   * Rows
-  * Single column
+  * Single column (Cell)
+
+## Collection View
